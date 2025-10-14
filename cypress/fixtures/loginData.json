@@ -1,0 +1,18 @@
+{
+  "validUser": {
+    "email": "test@example.com",
+    "password": "Password123"
+  },
+  "invalidUser": {
+    "email": "invalid-email",
+    "password": "short"
+  },
+  "user_special_character": {
+    "email": "test+special@example.com",
+    "password": "Password123"
+  },
+  "pass_special_character": {
+    "email": "testspecial@example.com",
+    "password": "P@ssw0rd!"
+  }
+}

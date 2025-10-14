@@ -1,0 +1,14 @@
+{
+  "name": "cypress-project",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open"
+  },
+  "private": true,
+  "devDependencies": {
+    "cypress": "^15.4.0"
+  },
+
+}

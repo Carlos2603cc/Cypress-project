@@ -1,4 +1,4 @@
-import LoginPage from '../pages/loginPage';
+import LoginPage from '../pages/loginPages.js';
 
 describe('Login Tests happy path', () => {
     beforeEach(() => {

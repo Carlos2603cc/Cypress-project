@@ -57,7 +57,7 @@ describe('Login Tests happy path', () => {
     // Flujos Alternos
     it('Debería navegar a forgot password', () => {
         LoginPage.clickForgotPassword();
-        cy.url().should('include', '/forgot-password');
+        cy.url().should('include', '/password-reset-start');
     });
 
     it('Debería navegar a sign up', () => {
